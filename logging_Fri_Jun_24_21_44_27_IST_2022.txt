@@ -1,0 +1,38 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Shankarrao",
+    "job": "QA"
+}
+HTTP/1.1 201 Created
+Date: Fri, 24 Jun 2022 16:14:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"52-BeU91wHV4e04VwwJFqc3kv0fRZ4"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=I%2BPpvmZFztvSJ7UOaAPP17yZH%2B75iBkufzzIHch19rB%2FA2A80c21dSXJO0pKTB5RQBqo34NzBJ1EFWP36Lbdbyt%2FWUm5uzQFqu0ipU6fjBvUpdc9mZJQ8A5%2FgQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7206c1caeb096ed0-BOM
+
+{
+    "name": "Shankarrao",
+    "job": "QA",
+    "id": "773",
+    "createdAt": "2022-06-24T16:14:32.394Z"
+}
